@@ -1,0 +1,21 @@
+{
+  "name": "cli-gpt",
+  "version": "0.0.1",
+  "description": "A CLI for the OpenAI API",
+  "main": "index.js",
+  "author": "Sascha Bohrloch",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sasboh/cli-gpt.git"
+  },
+  "dependencies": {
+    "openai": "^4.12.3",
+    "prompts": "^2.4.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No test specified\""
+  }
+}
